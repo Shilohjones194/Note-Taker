@@ -2,14 +2,15 @@
   "name": "Note-Taker",
   "version": "1.0.0",
   "description": "Starter code provided \"miniature-eureka\" by nol166 & Xandromus",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
+    "express": "^4.17.1",
     "inquirer": "^8.1.0"
   },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
