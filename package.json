@@ -1,0 +1,25 @@
+{
+  "name": "Note-Taker",
+  "version": "1.0.0",
+  "description": "Starter code provided \"miniature-eureka\" by nol166 & Xandromus",
+  "main": "index.js",
+  "dependencies": {
+    "inquirer": "^8.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shilohjones194/Note-Taker.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shilohjones194/Note-Taker/issues"
+  },
+  "homepage": "https://github.com/Shilohjones194/Note-Taker#readme"
+}
