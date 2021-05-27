@@ -1,6 +1,7 @@
 # Note-Taker
 
-
+## Contributors
+Starter code provided "miniature-eureka" by nol166 & Xandromus
 
 ## Acceptance Criteria: 
 
