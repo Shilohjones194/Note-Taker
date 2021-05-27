@@ -17,7 +17,8 @@ app.use(express.json());
 app.use(express.static("public"));
 
 //Need to require routes files
-require('./routes/routes')(app);
+require('./routes/apiRoutes.js')(app);
+require('./routes/htmlRoutes')(app);
 // Setup listener
 app.listen(PORT, () => {
     console.log(`API server now on port ${PORT}!`);
