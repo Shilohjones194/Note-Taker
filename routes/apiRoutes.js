@@ -1,7 +1,8 @@
 const router = require('express').Router();
 const fs = require('fs');
-const util = require('util');
 const path = require("path");
+
+// const util = require('util'); Not sure if I really need this. Need to test
 
 
 
@@ -24,17 +25,19 @@ const path = require("path");
 //     })
 
 // }
+
+// i think this is the right way to write it. ask TA
 router.get("/api/notes", (req, res) =>
     res.sendFile(path.join(__dirname, "../db/db.json"))
 );
 
-//read db.json file and return all saved notes as json
-router.get('/api/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, './db/db.json'), 'utf8');
-})
-router.get('/notes', (req, res) => {
-    res.sendFile(path.join(__dirname, './public/notes.html'));
-});
+// //read db.json file and return all saved notes as json
+// router.get('/api/notes', (req, res) => {
+//     res.sendFile(path.join(__dirname, './db/db.json'), 'utf8');
+// })
+// router.get('/notes', (req, res) => {
+//     res.sendFile(path.join(__dirname, './public/notes.html'));
+// });
 
 
 router.post('/api/notes', (req, res) => {
