@@ -1,5 +1,5 @@
 {
-  "name": "Note-Taker",
+  "name": "note-taker",
   "version": "1.0.0",
   "description": "Starter code provided \"miniature-eureka\" by nol166 & Xandromus",
   "main": "server.js",
@@ -16,7 +16,6 @@
     "type": "git",
     "url": "git+https://github.com/Shilohjones194/Note-Taker.git"
   },
-  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
