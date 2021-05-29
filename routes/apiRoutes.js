@@ -27,20 +27,14 @@ const path = require("path");
 // }
 
 // i think this is the right way to write it. ask TA
-router.get("/api/notes", (req, res) =>
+router.get("/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "../db/db.json"))
+}
 );
 
-// //read db.json file and return all saved notes as json
-// router.get('/api/notes', (req, res) => {
-//     res.sendFile(path.join(__dirname, './db/db.json'), 'utf8');
-// })
-// router.get('/notes', (req, res) => {
-//     res.sendFile(path.join(__dirname, './public/notes.html'));
-// });
 
 
-router.post('/api/notes', (req, res) => {
+router.post('/notes', (req, res) => {
     let db = JSON.parse(fs.readFileSync('./db/db.json'), 'utf8');
     let newNote = req.body;
 
