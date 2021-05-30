@@ -1,5 +1,31 @@
 # Note-Taker
 
+## Description
+This is a simple Note taking application that lets you add and remove notes, using Express, Node.js, and Heroku.
+
+To Create this:
+![image](https://user-images.githubusercontent.com/76697212/120117588-b8f50600-c142-11eb-9493-001344e4afb8.png)
+
+
+## Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Questions](#questions)
+* [AcceptanceCriteria](#acceptancecriteria)
+
+## Installation
+Install NPM express to run off of local host3001. Deployed and linked to Herokuapp.com.
+
+## Usage
+Use live link from Heroku below:
+https://radiant-harbor-07671.herokuapp.com/
+https://radiant-harbor-07671.herokuapp.com/notes
+
+
+## Questions
+* Email: Please contact me at [Shilohjonezz@gmail.com](mailto:Shilohjonezz@gmail.com) if you have any questions.
+
+
 ## Contributors
 Starter code provided "miniature-eureka" by nol166 & Xandromus
 
