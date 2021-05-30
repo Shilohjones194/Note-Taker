@@ -2,37 +2,10 @@ const router = require('express').Router();
 const fs = require('fs');
 const path = require("path");
 
-// const util = require('util'); Not sure if I really need this. Need to test
-
-
-
-
-//Needs app.get // app.post // app.delete
-// module.exports = (app) => {
-
-//     //need to review module 11 for correct path
-//     app.get('/api/notes', (req,res) => {
-//         readFile(path.join(__dirname + '../db/db.json'),)
-//     })
-
-
-//     app.post('/api/notes', (req, res) => {
-//         readFile(path.join (__dirname + '/../db/db.json'),)  
-//     })
-
-//     app.delete('api/notes/:id', function(req, res) {
-//         readFile(path.join(__dirname + '/../db/db.json'), )
-//     })
-
-// }
-
-// i think this is the right way to write it. ask TA
 router.get("/notes", (req, res) => {
     res.sendFile(path.join(__dirname, "../db/db.json"))
 }
 );
-
-
 
 router.post('/notes', (req, res) => {
     let db = JSON.parse(fs.readFileSync('./db/db.json'), 'utf8');
@@ -51,7 +24,7 @@ router.post('/notes', (req, res) => {
 
 
 //Deleting api/Notes
-router.delete('/api/notes/:id', (req, res) => {
+router.delete('/notes/:id', (req, res) => {
     let db = JSON.parse(fs.readFileSync('./db/db.json'), 'utf8');
     let noteId = req.params.id;
     let makeId = 0;
