@@ -20,6 +20,7 @@ Install NPM express to run off of local host3001. Deployed and linked to Herokua
 Use live link from Heroku below:
 https://radiant-harbor-07671.herokuapp.com/
 https://radiant-harbor-07671.herokuapp.com/notes
+Delpoyed link: https://shilohjones194.github.io/Note-Taker/
 
 
 ## Questions
